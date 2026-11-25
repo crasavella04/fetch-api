@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>Пользователи</h1>
+            <h4 id="login">crasavella04</h4>
+        </header>
+
+        <div class="controls">
+            <button id="cancel" type="button">
+                Отменить запросы
+            </button>
+
+            <output id="summary" data-state="loading" aria-live="polite">
+                Загрузка...
+            </output>
+        </div>
+
+        <section id="users"></section>
+    </main>
+</body>
+</html>
